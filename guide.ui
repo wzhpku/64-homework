@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>guide</class>
+ <widget class="QDialog" name="guide">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>580</width>
+     <height>460</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;通过“W”“S”“A”“D”分别控制上、下、左、右四个方向的移动。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;飞机会自动发射子弹。你的目标是尽可能躲避敌方攻击，或许可以尽可&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;能击落敌机。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;敌人类别&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;1：侦察机。移动速度不定，不会发射子弹，血量为1，碰撞则同归于尽。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;2：战斗机。移动速度一般，间歇发射子弹，血量为1，碰撞则同归于尽。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;3：自毁舰。移动速度缓慢，不会发射子弹，血量为6，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;靠近或该目标到达屏幕最下方则同归于尽。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;分数计算：&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;存活时间+侦察机数+战斗机数+自毁舰数*5&lt;br/&gt;提示：&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;本游戏极度困难，如若破防后果自负。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>520</y>
+     <width>80</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GOT IT!</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
